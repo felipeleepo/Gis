@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="libs/css/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<title>GIS - Get In Shape</title>
+</head>
+<style>
+	div{
+		/*border: 0.5px solid black;*/
+	}
+	body{
+		margin: 0 20px;
+		min-height: 1000px;
+	}
+	#foto,#menu{
+		padding: 0 auto;
+		margin: 0 auto;
+		border: 1px solid black;
+		border-radius: 10px;
+	}
+	#nutricionista;#edfisico{
+		text-align: center;
+	}
+	h3{
+		text-align: center;
+		width: 100%;
+		border-bottom: 1px solid black;
+	}
+	h5{
+		font-weight: bold;
+	}
+	hr{
+		width: 80%;
+		line-height: 5px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	nav{
+		text-align: center;
+		margin: 0 auto;
+	}
+	table{
+		margin: 0 auto;
+		width: 90%;
+	}
+	#prog{
+		width: 20%;
+	}
+	#ini,#atual{
+		width: 40%;
+	}
+	table thead th, table tbody td{
+		text-align: left;
+		border-bottom: 1px solid black;
+	}
+</style>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-2" >
+				<div id="foto" class="row">
+					<div  class="col-12" style="margin: 0 auto;text-align: center">
+						<img src="img/person.png" width="100">
+						<hr style="margin: 10px auto;">
+						<p style="text-align: center;">
+							José Luís	
+						</p>
+					</div>
+				</div>
+				<div id="menu" class="row">
+					<nav idclass="nav flex-column">
+					  	<a class="nav-link active" href="#">Dashboard</a>
+					  	<hr>
+					  	<a class="nav-link" href="#">Agendar</a>
+					  	<hr>
+					  	<a class="nav-link" href="#">Meus Dados</a>
+					  	<hr>
+					  	<a class="nav-link" href="#">Configurações</a>
+					  	<hr>
+					  	<a class="nav-link" href="#">Sair</a>
+					</nav>
+				</div>
+			</div>
+			<div class="col-10">
+				<div class="row">
+					<div id="nutrucionista" class="col-6 border border-right-0 border-dark rounded-left">
+						<h3>Nutrucionista</h3>
+						<p>
+							<h5>Dieta:</h5>
+							<ul>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+							</ul>
+						</p>
+					</div>
+					<div id="edfisico" class="col-6 border border-dark rounded-right">
+						<h3>Ed. Físico</h3>
+						<p>
+							<h5>Treino:</h5>
+							<ul>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+								<li>1</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+				<div class="row">
+					<table>
+						<thead>
+							<th id="prog">Progressão</th>
+							<th id="ini">Início</th>
+							<th id="atual">Atual</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>2</td>
+								<td>3</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>	
+		</div>
+	</div>
+</body>
+</html>
